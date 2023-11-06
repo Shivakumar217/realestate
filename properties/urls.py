@@ -1,12 +1,9 @@
 # properties/urls.py
 from django.urls import path
-from .views import (
-    
+from .views import ( 
     PropertyCreateView,
-    rate_property,
-    
+    rate_property, 
 )
-
 urlpatterns = [
     
     path('property/add/', PropertyCreateView.as_view(), name='property-create'),
