@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container">
+    <h1>{% if request.resolver_match.url_name == 'property-create' %}Add{% else %}Update{% endif %} Property</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button class="btn btn-primary" type="submit">
+        {% if request.resolver_match.url_name == 'property-create' %}Save{% else %}Update{% endif %}
+      </button>
+    </form>
+    <a class="btn btn-secondary" href="{% url 'property-list' %}">Back to Property Listings</a>
+  </div>
+{% endblock %}
