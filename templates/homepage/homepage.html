@@ -1,0 +1,35 @@
+<!-- homepage/templates/homepage/homepage.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+  <style>
+    /* Add CSS to style the background image and text */
+    body {
+      background-image: url("{% static 'images/bg.png' %}");
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      height: 100vh; /* Adjust the height as needed */
+    }
+
+    .content-container {
+      background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the text */
+      padding: 20px;
+      border-radius: 10px;
+      margin: 100px 0;
+    }
+
+    .content {
+      text-align: center;
+    }
+  </style>
+
+  <div class="container content-container">
+    <div class="content">
+      <h1>Welcome to Our Real Estate Portal</h1>
+      <p class="lead">Find your dream home with ease. We offer a wide range of properties to choose from.</p>
+    </div>
+  </div>
+{% endblock %}
