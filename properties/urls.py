@@ -1,7 +1,6 @@
 # properties/urls.py
 from django.urls import path
-from .views import (
-    
+from .views import ( 
     PropertyCreateView,
     PropertyListView,
     rate_property,
