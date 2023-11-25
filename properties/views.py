@@ -25,3 +25,28 @@ def property_listing(request):
         return JsonResponse({'properties': properties})
     
     return render(request, 'properties/listing_ajax.html')
+
+# views.py
+from django.shortcuts import render
+from django.http import JsonResponse
+from .models import Property
+
+def save_property(request):
+    if request.method == 'POST':
+        address = request.POST.get('address')
+        zpid = request.POST.get('zpid')
+
+        # Check if the property already exists in the database
+        existing_property = Property.objects.filter(zpid=zpid).first()
+
+        if existing_property:
+            return JsonResponse({'status': 'error', 'message': 'Property already saved.'}, status=400)
+
+        # Create a new Property instance and save it to the database
+        new_property = Property(address=address, zpid=zpid)
+        new_property.save()
+        
+
+        return JsonResponse({'status': 'success', 'message': 'Property saved successfully.'})
+
+    return JsonResponse({'status': 'error', 'message': 'Invalid request method.'}, status=400)
