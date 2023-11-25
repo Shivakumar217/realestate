@@ -1,10 +1,12 @@
 from django.db import models
-class Property(models.Model):
-    title = models.CharField(max_length=100)
-    description = models.TextField()
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    is_sold = models.BooleanField(default=False)
-    rating = models.DecimalField(max_digits=3, decimal_places=2, default=0.00)
+from django.contrib.auth.models import User
 
-    def str(self):
-        return self.title
+
+class Property(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    zpid = models.CharField(max_length=255, unique=True, null=False)
+    address = models.CharField(max_length=255)
+    description = models.TextField(default="")  # Default value added
+
+    def __str__(self):
+        return f"{self.address} - {self.zpid}"
