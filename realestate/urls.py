@@ -1,3 +1,7 @@
+from django.conf import settings
+from django.conf.urls.static import static
+
+
 """
 URL configuration for realestate project.
 
@@ -15,13 +19,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-
-
+from django.urls import URLPattern, path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('homepage.urls')),  
-    path('properties/', include('properties.urls')),
-    
+    path('', include('homepage.urls')), 
+    path('property-listing/', include('properties.urls')),  # Include the properties app URLs here # Replace 'your_app' with the actual app name
+   
 ]
+
+
+

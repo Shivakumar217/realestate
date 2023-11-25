@@ -1,15 +1,12 @@
-# properties/urls.py
-from django.urls import path
-from .views import ( 
-    PropertyCreateView,
-    PropertyListView,
-    rate_property,
-   
-)
+# urls.py
 
-urlpatterns = [   
-    path('property/add/', PropertyCreateView.as_view(), name='property-create'),
-    path('property/rate/<int:property_id>/', rate_property, name='rate-property'),
-    path('', PropertyListView.as_view(), name='property-list'),
+from django.urls import path
+from .views import property_listing, save_property
+
+urlpatterns = [
+    path('property-listing/', property_listing, name='property-listing'),
    
+    
+    
+    # Other patterns if any...
 ]
