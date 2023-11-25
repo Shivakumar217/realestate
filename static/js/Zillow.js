@@ -1,4 +1,3 @@
-// Validate zip code input
 function validateInput() {
   var zipCode = $("#zipcode").val().trim();
   if (!zipCode) {
@@ -38,11 +37,37 @@ function fetchProperties() {
 
               $("#propertyTable tbody").append($row);
 
-              
+              // Add event listener for the Save button in the same loop
+              $saveButton.on("click", function () {
+                  var $saveRow = $(this).closest("tr");
+                  var saveAddress = $saveRow.find("td:first-child").text();
+                  var saveZpid = $saveRow.find("td:nth-child(2)").text();
+
+                  // Perform the save operation by sending data to a Django view
+                  $.ajax({
+                      url: "/save-property/",  // Replace with your actual URL
+                      type: "POST",  // Adjust the request method as needed
+                      data: {
+                          address: saveAddress,
+                          zpid: saveZpid,
+                          csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val()
+                          
+                      },
+                      success: function (saveResponse) {
+                          console.log("Property saved successfully:", saveResponse);
+                          // Optionally, you can update the UI to indicate success
+                          $saveRow.find(".save-button").text("Saved").prop("disabled", true);
+                      },
+                      error: function (xhr, status, error) {
+                          console.log("Error saving property:", error);
+                      }
+                  });
+              });
           });
       },
-      
-      
+      error: function (xhr, status, error) {
+          console.log("Error fetching properties:", error);
+      }
   });
 }
 
