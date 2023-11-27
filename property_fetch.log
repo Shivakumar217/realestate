@@ -3612,3 +3612,1000 @@ Watching for file changes with StatReloader
 Bad Request: /save-property/
 /Users/bubby/realestate/properties/urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /add-to-favorites/
+Watching for file changes with StatReloader
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+Bad Request: /add-to-favorites/
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/homepage/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Watching for file changes with StatReloader
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+Bad Request: /save-property/
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 33, in property_listing
+    return render(request, 'properties/listing_ajax.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 33, in property_listing
+    return render(request, 'properties/listing_ajax.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/saved-properties/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 63, in saved_properties
+    return render(request, 'properties/saved_properties.html', {'saved_properties': saved_properties})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: properties/saved_properties.html
+Internal Server Error: /property-listing/saved-properties/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 63, in saved_properties
+    return render(request, 'properties/saved_properties.html', {'saved_properties': saved_properties})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 852, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '-properties' from 'saved-properties'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'properties'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'properties' is not a registered namespace
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/4/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/4/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/4/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: update_description() got an unexpected keyword argument 'property_id'
+/Users/bubby/realestate/properties/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /property-listing/update-description/4/
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 82, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/3/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 83, in update_description
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/update-description/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 78, in update_description
+    return redirect('saved_properties')  # Ensure the name matches the URL pattern
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 78, in update_description
+    return redirect('saved_properties')  # Ensure the name matches the URL pattern
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+Internal Server Error: /property-listing/update-description/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 78, in update_description
+    return redirect('saved_properties')  # Ensure the name matches the URL pattern
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/remove-property/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 96, in remove_property
+    return redirect('saved_properties')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved_properties' not found. 'saved_properties' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/remove-property/2/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 92, in remove_property
+    property_instance = Property.objects.get(id=property_id)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+properties.models.Property.DoesNotExist: Property matching query does not exist.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /property-listing/saved-properties/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/properties/views.py", line 63, in saved_properties
+    return render(request, 'properties/saved_properties.html', {'saved_properties': saved_properties})
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'remove_property' not found. 'remove_property' is not a valid view function or pattern name.
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'saved-property'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 38: 'saved-property'. Did you forget to register or load this tag?
+/Users/bubby/realestate/homepage/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'saved-property' not found. 'saved-property' is not a valid view function or pattern name.
+Not Found: /djangoadmin
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /cheeses/update/deletecheese/
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 11, in about
+    return render(request, 'homepage/about.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'static', expected 'endblock'. Did you forget to register or load this tag?
+Watching for file changes with StatReloader
+Not Found: /favicon.ico

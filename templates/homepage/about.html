@@ -2,8 +2,22 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="container">
-    <h1>About Us</h1>
-    <!-- Add content about your real estate portal here -->
+  {% load static %}  <!-- Add this line to load the static tag library -->
+
+  <div class="container-fluid mt-5 d-flex align-items-center justify-content-center">
+    <div class="bg-light p-4 rounded">
+      <h1 class="display-4 text-center mb-4">About Us</h1>
+      <p class="lead text-center">Welcome to My Real Estate Portal, your trusted destination for seamless property transactions.<br>
+      <b>You can now search for properties to live-in through our friendly website</p>
+
+      <div class="row mt-5">
+        <div class="col-md-6 order-md-2">
+          <!-- Rest of your content -->
+        </div>
+        <div class="col-md-6 order-md-1 d-flex align-items-center justify-content-center">
+          <img src="{% static 'images/about_us_image.jpeg' %}" class="img-fluid rounded" alt="Real Estate Image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
   </div>
 {% endblock %}

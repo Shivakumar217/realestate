@@ -1,7 +1,7 @@
 # homepage/urls.py
 from django.urls import path
 
-from properties.views import property_listing , save_property
+from properties.views import property_listing , save_property , saved_properties , update_description , remove_property
 from .views import homepage, about, contact_us, user_login
 
 urlpatterns = [
@@ -10,7 +10,10 @@ urlpatterns = [
     path('contact-us/', contact_us, name='contact-us'),
     path('login/', user_login, name='user_login'),
     path('property-listing/', property_listing, name='property_listing'),
-    path('save-property/', save_property, name='save_property'),
+    path('save-property/', save_property, name='save-property'),
+    path('saved-properties/', saved_properties, name='saved-properties'),
+    # Other patterns if any...
+    
 
 ]
    

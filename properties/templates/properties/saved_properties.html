@@ -1,0 +1,52 @@
+<!-- saved_properties.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Saved Properties</h1>
+
+{% if saved_properties %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>ZPID</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for property in saved_properties %}
+            <tr>
+                <td>{{ property.address }}</td>
+                <td>{{ property.zpid }}</td>
+                <td>
+                    {% if property.description %}
+                        {{ property.description }}
+                    {% else %}
+                        <em>No description available</em>
+                    {% endif %}
+                </td>
+                <td>
+                    <div class="d-flex">
+                        <form method="post" action="{% url 'update_description' property.id %}" class="mr-2">
+                            {% csrf_token %}
+                            {{ update_form.property_description }}
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </form>
+                        <form method="post" action="{% url 'remove_property' property.id %}">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </td>
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No properties saved yet.</p>
+{% endif %}
+
+<a href="{% url 'property_listing' %}">Back to Property Listing</a>
+{% endblock %}
