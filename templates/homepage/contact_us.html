@@ -4,6 +4,46 @@
 {% block content %}
   <div class="container">
     <h1>Contact Us</h1>
-    <!-- Add contact information and a form for users to reach out here -->
+
+    <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Our Office</h2>
+        <p>
+          Elm Street<br>
+          Manchester, New Hampshire, 03102<br>
+          United States
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h2>Contact Information</h2>
+        <p>
+          Email: info@realestateportal.com<br>
+          Phone: +1 (555) 123-4567
+        </p>
+      </div>
+    </div>
+
+    <h2 class="mt-4">Send us a Message</h2>
+
+    <form style="background-color: #f2f2f2; padding: 20px; border-radius: 10px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
   </div>
 {% endblock %}

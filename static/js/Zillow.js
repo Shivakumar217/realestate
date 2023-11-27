@@ -34,6 +34,9 @@ function validateInput() {
   
                 // Add a Save button in a new column
                 var $saveButton = $("<button>").text("Save").addClass("btn btn-primary save-button");
+                if (property.is_saved) {
+                    $saveButton.prop("disabled", true);
+                }
                 $row.append($("<td>").append($saveButton));
   
                 $("#propertyTable tbody").append($row);
@@ -55,9 +58,15 @@ function validateInput() {
                             
                         },
                         success: function (saveResponse) {
-                            console.log("Property saved successfully:", saveResponse);
-                            // Optionally, you can update the UI to indicate success
-                            $saveRow.find(".save-button").text("Saved").prop("disabled", true);
+                            if (saveResponse.status === 'success') {
+                                alert("Property saved successfully!");
+                                // Optionally, you can update the UI to indicate success
+                                $saveRow.find(".save-button").text("Saved").prop("disabled", true);
+                            } else if (saveResponse.status === 'error' && saveResponse.message === 'Property already saved.') {
+                                alert("Property is already saved.");
+                                // Disable the button if the property is already saved
+                                $saveRow.find(".save-button").prop("disabled", true);
+                            }
                         },
                         error: function (xhr, status, error) {
                             console.log("Error saving property:", error);

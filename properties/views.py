@@ -21,6 +21,12 @@ def property_listing(request):
         else:
             properties = api_data.get("props", [])
 
+        saved_properties = Property.objects.filter(zpid__in=[property['zpid'] for property in properties])
+        saved_zpids = set(saved_property.zpid for saved_property in saved_properties)
+
+        for property in properties:
+            property['is_saved'] = property['zpid'] in saved_zpids
+
      
         return JsonResponse({'properties': properties})
     
@@ -50,4 +56,44 @@ def save_property(request):
         return JsonResponse({'status': 'success', 'message': 'Property saved successfully.'})
 
     return JsonResponse({'status': 'error', 'message': 'Invalid request method.'}, status=400)
+
+
+def saved_properties(request):
+    saved_properties = Property.objects.all()
+    return render(request, 'properties/saved_properties.html', {'saved_properties': saved_properties})
+
+
+# views.py
+from django.shortcuts import render, redirect
+from .models import Property
+from .forms import PropertyUpdateForm
+
+def update_description(request, property_id):
+    property_instance = Property.objects.get(pk=property_id)
+
+    if request.method == 'POST':
+        form = PropertyUpdateForm(request.POST, instance=property_instance)
+        if form.is_valid():
+            form.save()
+            return redirect('saved-properties')
+    else:
+        # Pre-fill the form with existing data
+        form = PropertyUpdateForm(instance=property_instance)
+
+    return render(request, 'properties/update_description.html', {'form': form, 'property': property_instance})
+
+
+# views.py
+from django.shortcuts import render, redirect
+from .models import Property
+from .forms import PropertyUpdateForm
+
+def remove_property(request, property_id):
+    property_instance = Property.objects.get(id=property_id)
+
+    if request.method == 'POST':
+        property_instance.delete()
+        return redirect('saved-properties')
+
+    return render(request, 'properties/remove_property.html', {'property': property_instance})
 
