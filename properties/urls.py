@@ -9,7 +9,7 @@ urlpatterns = [
     path('saved-properties/', saved_properties, name='saved-properties'),
     path('update-description/<int:property_id>/', update_description, name='update_description'), 
     path('remove-property/<int:property_id>/', remove_property, name='remove_property'), 
-  
+    
     
     
     # Other patterns if any...

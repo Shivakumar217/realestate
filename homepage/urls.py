@@ -12,7 +12,8 @@ urlpatterns = [
     path('property-listing/', property_listing, name='property_listing'),
     path('save-property/', save_property, name='save-property'),
     path('saved-properties/', saved_properties, name='saved-properties'),
-    # Other patterns if any...
+
+  
     
 
 ]
