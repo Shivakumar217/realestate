@@ -31,6 +31,7 @@ function validateInput() {
                 var $row = $("<tr>");
                 $row.append($("<td>").text(property.address));
                 $row.append($("<td>").text(property.zpid));
+                
   
                 // Add a Save button in a new column
                 var $saveButton = $("<button>").text("Save").addClass("btn btn-primary save-button");
@@ -74,6 +75,7 @@ function validateInput() {
                     });
                 });
             });
+            
         },
         error: function (xhr, status, error) {
             console.log("Error fetching properties:", error);

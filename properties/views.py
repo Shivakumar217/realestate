@@ -97,3 +97,5 @@ def remove_property(request, property_id):
 
     return render(request, 'properties/remove_property.html', {'property': property_instance})
 
+
+

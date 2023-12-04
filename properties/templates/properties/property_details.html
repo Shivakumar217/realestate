@@ -1,0 +1,17 @@
+<!-- templates/properties/property_details.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Property Details</h1>
+
+    <dl>
+        <dt>Address:</dt>
+        <dd>{{ property_details.address }}</dd>
+
+        <dt>ZPID:</dt>
+        <dd>{{ property_details.zpid }}</dd>
+
+        <!-- Add more details as needed -->
+    </dl>
+{% endblock %}
