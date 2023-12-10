@@ -5884,3 +5884,305 @@ Watching for file changes with StatReloader
 Not Found: /favicon.ico
 Watching for file changes with StatReloader
 Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/homepage/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1026, in find_library
+    return parser.libraries[name]
+KeyError: 'messages'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/bubby/realestate/homepage/views.py", line 8, in homepage
+    return render(request, 'homepage/homepage.html')
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1088, in load
+    lib = find_library(parser, name)
+  File "/Users/bubby/miniconda3/envs/realestate/lib/python3.8/site-packages/django/template/defaulttags.py", line 1028, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'messages' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+Forbidden (CSRF token from POST incorrect.): /login/
+Forbidden (CSRF token from POST incorrect.): /login/
+Watching for file changes with StatReloader
+/Users/bubby/realestate/homepage/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bubby/realestate/properties/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
