@@ -37,6 +37,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from .models import Property
 
+
 def save_property(request):
     if request.method == 'POST':
         address = request.POST.get('address')

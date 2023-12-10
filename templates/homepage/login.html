@@ -1,5 +1,3 @@
-<!-- homepage/templates/homepage/login.html -->
-
 {% extends 'base.html' %}
 
 {% block title %}Login{% endblock %}
@@ -11,6 +9,23 @@
                 <div class="card shadow"> <!-- Added "shadow" class -->
                     <div class="card-body">
                         <h2 class="text-center mb-4">Login</h2>
+
+                        <!-- Display success alert if login was successful -->
+                        {% if request.session.user_authenticated %}
+                            <div class="alert alert-success">
+                                <strong>Login successful!</strong>
+                            </div>
+                        {% endif %}
+
+                        <!-- Display error alert if login was unsuccessful -->
+                        {% if request.session.login_error %}
+                            <div class="alert alert-danger">
+                                <strong>Invalid username or password!</strong>
+                            </div>
+                        {% endif %}
+                        
+
+                        
                         <form method="post" action="{% url 'user_login' %}" class="needs-validation" novalidate>
                             {% csrf_token %}
                             <div class="mb-3">

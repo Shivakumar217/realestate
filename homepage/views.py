@@ -16,11 +16,10 @@ def contact_us(request):
 
 
 
-# homepage/views.py
-
-from django.contrib.auth import authenticate, login
-from django.shortcuts import render, redirect
+# views.py
+from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+from django.shortcuts import render, redirect
 
 def user_login(request):
     if request.method == 'POST':
@@ -29,10 +28,19 @@ def user_login(request):
         user = authenticate(request, username=username, password=password)
         if user:
             login(request, user)
-            messages.success(request, 'Login successful.')
-            return redirect('homepage')  # Redirect to the homepage or any other desired page
+            request.session['user_authenticated'] = True
+            # Redirect to the homepage or any other desired page
+            return redirect('homepage')
         else:
             messages.error(request, 'Invalid login credentials.')
 
+    # Clear the session flag to avoid showing success message on subsequent requests
+    if 'user_authenticated' in request.session:
+        del request.session['user_authenticated']
+
     return render(request, 'homepage/login.html')
 
+def user_logout(request):
+    logout(request)
+    messages.success(request, 'Logout successful.')
+    return redirect('homepage')  # Redirect to the homepage or any other desired page

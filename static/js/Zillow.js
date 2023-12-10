@@ -31,6 +31,11 @@ function validateInput() {
                 var $row = $("<tr>");
                 $row.append($("<td>").text(property.address));
                 $row.append($("<td>").text(property.zpid));
+                $row.append($("<td>").text(property.price));
+                $row.append($("<td>").text(property.bedrooms));
+                $row.append($("<td>").text(property.bathrooms));
+                
+
                 
   
                 // Add a Save button in a new column
